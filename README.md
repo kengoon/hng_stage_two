@@ -149,4 +149,8 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-
+## Testing
+Sharable link to postman testable script
+```url
+https://api.postman.com/collections/25242424-2457cfde-dc89-4be8-9ff4-e633aa1f03ea?access_key=PMAT-01HA2HCVE6NG9VBD45S28GYHS5
+```
