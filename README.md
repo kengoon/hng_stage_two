@@ -60,7 +60,7 @@ classDiagram
   ```
 
 ### Retrieve a Person
-- **Endpoint:** `GET /api/{id}/`
+- **Endpoint:** `GET /api/{id}`
 - **Response Format (Success):**
   ```json
   {
@@ -70,7 +70,7 @@ classDiagram
   ```
 
 ### Update a Person
-- **Endpoint:** `PUT /api/{id}/`
+- **Endpoint:** `PUT /api/{id}`
 - **Request Format:**
   ```json
   {
@@ -86,7 +86,7 @@ classDiagram
   ```
 
 ### Delete a Person
-- **Endpoint:** `DELETE /api/{id}/`
+- **Endpoint:** `DELETE /api/{id}`
 - **Response Format (Success):**
   ```json
   {
@@ -106,25 +106,25 @@ curl -X POST -H "Content-Type: application/json" -d '{"name": "Kenechukwu Akubue
 ### Retrieving a Person
 ```bash
 # for local
-curl http://localhost:8000/api/1/
+curl http://localhost:8000/api/1
 # for online
-curl https://hng.pythonanywhere.com/api/1/
+curl https://hng.pythonanywhere.com/api/1
 ```
 
 ### Updating a Person
 ```bash
 # for local
-curl -X PUT -H "Content-Type: application/json" -d '{"name": "Mark Cuban"}' http://localhost:8000/api/1/
+curl -X PUT -H "Content-Type: application/json" -d '{"name": "Mark Cuban"}' http://localhost:8000/api/1
 # for online
-curl -X PUT -H "Content-Type: application/json" -d '{"name": "Mark Cuban"}' https://hng.pythonanywhere.com/api/1/
+curl -X PUT -H "Content-Type: application/json" -d '{"name": "Mark Cuban"}' https://hng.pythonanywhere.com/api/1
 ```
 
 ### Deleting a Person
 ```bash
 # for local
-curl -X DELETE http://localhost:8000/api/1/
+curl -X DELETE http://localhost:8000/api/1
 # for online
-curl -X DELETE https://hng.pythonanywhere.com/api/1/
+curl -X DELETE https://hng.pythonanywhere.com/api/1
 ```
 
 ## Known Limitations and Assumptions
